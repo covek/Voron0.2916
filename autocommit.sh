@@ -28,9 +28,9 @@ moonraker_folder=~/moonraker
 mainsail_folder=~/mainsail
 
 ### Path to your Fluidd folder, by default that is '~/fluidd'
-fluidd_folder=~/fluidd
+#fluidd_folder=~/fluidd
 
-#klipperscreen_folder=~/KlipperScreen
+klipperscreen_folder=~/KlipperScreen
 
 
 #####################################################################
