@@ -74,13 +74,13 @@ grab_version(){
 # git remote set-url origin https://XXXXXXXXXXX@github.com/EricZimmerman/Voron24Configs.git/
 # Note that that format is for changing things after the repository is in use, vs initially
 
-push_config() {
-  cd $config_folder;
-  git pull origin master;
-  git add .;
-  current_date=$(date +"%Y-%m-%d %T");
-  git commit -m "$m0 from $current_date" -m "$m1" -m "$m2" -m "$m3" -m "$m4";
-  git push origin master;
+push_config(){
+  cd $config_folder
+  git pull origin master
+  git add .
+  current_date=$(date +"%Y-%m-%d %T")
+  git commit -m "$m0 from $current_date" -m "$m1" -m "$m2" -m "$m3" -m "$m4"
+  git push origin master
 };
 
 m0="$*";
