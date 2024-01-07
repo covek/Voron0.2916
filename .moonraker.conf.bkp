@@ -20,6 +20,10 @@ cors_domains =
 	*://my.mainsail.xyz
 	*://app.fluidd.xyz
 
+[spoolman]
+server = http://192.168.10.187:7912
+sync_rate = 5
+
 [octoprint_compat]
 
 [history]
