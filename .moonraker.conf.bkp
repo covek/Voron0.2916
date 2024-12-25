@@ -21,7 +21,7 @@ cors_domains =
 	*://app.fluidd.xyz
 
 [spoolman]
-server = http://192.168.0.95:7912
+server = http://192.168.0.95:7912/
 sync_rate = 5
 
 [octoprint_compat]
